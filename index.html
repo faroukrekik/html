@@ -4,30 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-<img src="https://mir-s3-cdn-cf.behance.net/projects/404/f1131b158887679.Y3JvcCwxODcxLDE0NjQsNTIzLDA.jpg" alt="image portfilio"
-width="150px">
+    
+
 <ul type ="none">
-    <a href="#section-home">
-        <li>home</li>
-    </a>
-    <a href="#section-about">
-        <li>about</li>
-    </a>
-    <a href="#section-work">  
-
-        <li>work</li>
-    </a>
-    <a href="#section-resume"> 
-
-        <li>resume</li>
-    </a>
-    <a href="">     
-
-        <li>contact</li>
-    </a>
+    <li><a class="active" href="#section-home">Home</a></li>
+    <li><a href="#section-about">about</a></li>
+    <li><a href="#section-work">work</a></li>
+    <li><a href="#section-contact">contact</a></li>
+  </ul>
+  
+  
         
 
 </ul>
@@ -35,15 +25,18 @@ width="150px">
     </header>
     <main>
         <div id="section-home">
-        <h1> welcome in my portfilio</h1>
-        <img src="https://img.freepik.com/premium-vector/welcome-text_689076-127.jpg?w=2000" alt="welcome photo" width="300px">
+        <h1 id="animate-charcter"> welcome in my portfilio</h1>
+        <img id="myimage"
+         
+        
         <h2>  We're thrilled to have you here and eager to share our knowledge and expertise. Let's work together to learn and grow."</h2>
         <iframe width="930" height="523" src="https://www.youtube.com/embed/9XDF7QB07Jg" title="tech welcome loop 1080p" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         </div>
         <div id="section-about">
             <h1>about me</h1>
-            <img src="https://scontent.ftun14-1.fna.fbcdn.net/v/t39.30808-6/347395367_3596594683956585_8212779259826540508_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=PxOd--DIa3kAX_gvzL1&_nc_ht=scontent.ftun14-1.fna&oh=00_AfD1C4mLHnP5TMtb9nlvbz0S6A5N2r9NXctwEr5knPDRNQ&oe=65019B52" alt="photome" width="200px">
+            <img  
+            src="https://scontent.ftun14-1.fna.fbcdn.net/v/t39.30808-6/347395367_3596594683956585_8212779259826540508_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=PxOd--DIa3kAX_gvzL1&_nc_ht=scontent.ftun14-1.fna&oh=00_AfD1C4mLHnP5TMtb9nlvbz0S6A5N2r9NXctwEr5knPDRNQ&oe=65019B52" alt="photome" width="200px">
             <p>  am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease.<br/> I believe that a person should work on developing their professional skills and learning new things all the time.<br/> Currently, I am looking for new career opportunities my current job position cannot provide.<br/> </p>
             <table border="3">
                 <tr>  
@@ -79,30 +72,38 @@ width="150px">
         </div>  
         <div id="section-work">
             <h1> work</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit aperiam sequi, est blanditiis veniam rerum amet omnis pariatur, eius, perspiciatis eaque. Quidem quo rerum quis aperiam natus atque asperiores!</p>
         </div>
         <div id="section-resume">
             <h1>resume</h1>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo quos ut repellat incidunt perferendis repellendus voluptatem mollitia cum harum nesciunt expedita reprehenderit, excepturi ipsa amet quisquam nam iste commodi tempora?</p>
 
         </div>
 
     </main>
     <footer>
         <h1> contact</h1>
-        <form action="">  
+        <form action="" id="boxes">  
             <label for=""> name</label>
-            <input type="text"   placeholder="enter your name"> 
-            <br/>
-            <label for=""> Email</label>
-            <input type="email" placeholder="enter your email">
-            <br/>
+            <input type="text"   placeholder="enter your name"><br><br> 
+            
+        <label for=""> Email</label>
+            <input type="email" placeholder="enter your email"><br><br>
+            
             <label for=""> phone </label>
-            <input type="text" placeholder="enter your number">
-            <br/>
+            <input type="text" placeholder="enter your number"><br><br>
+            
             <button> submit</button>
+            <div id="photo">   
+
+                <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-64.png" alt="facebook">
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-black-white-2/600/Instagram_glyph_svg-64.png" alt="instagram">
+                <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-64.png" alt="twitter">
+                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/23-whatsapp-2-64.png" alt="whatsapp">
+            </div>
 
 
-
-
+            
 
 
         </form>
